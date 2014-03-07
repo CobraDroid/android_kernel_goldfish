@@ -21,6 +21,11 @@ config ASHMEM
 	  POSIX SHM but with different behavior and sporting a simpler
 	  file-based API.
 
+# LiME for CobraDroid
+config ANDROID_LIME
+        tristate "Enables LiME Forensics in the kernel"
+        default n
+
 config ANDROID_LOGGER
 	tristate "Android log driver"
 	default n
